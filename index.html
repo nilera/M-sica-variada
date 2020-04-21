@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://www.magazineampm.com/wp-content/uploads/2019/05/Sin-ti%CC%81tulo-1.jpg");
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid black;
+      border-radius: 10px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://www.designevo.com/res/templates/thumb_small/music-score-and-note-icon.png">
+    <h1> Music Top  </h1>
+    <ul>
+      <li><a href="#">Acerca de mi</a></li>
+      <li><a href="#">Mejores artistas</a></li>
+      <li><a href="#">Nuevos artistas</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Jonny depp</h2>
+    <p>Parece que el actor y productor estadounidense de 56 años de edad ha logrado dejar atrás toda la controversia que lo envolvía y por fin vuelve con una de sus pasiones más grandes; y es que Johnny Depp regresa a la música con un nuevo disco.
+    Luego de todos los problemas que se habían generado en torno al divorcio de su ex pareja, la también actriz, Amber Heard, Johnny Depp decidió dar vuelta a la página y seguir con su vida de 'rockstar'.
+    Es por eso que Johnny Depp regresa a la música con un nuevo disco a lado de su banda 'Hollywood Vampires' integrada también por grandes leyendas del rock como Alice Cooper y Joe Perry. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Bring me the horizon</h2>
+    <p>Bring Me the Horizon (abreviado BMTH) es una banda británica de Sheffield, Inglaterra. Se formó en 2003 y actualmente está conformada por el vocalista Oliver Sykes, el guitarrista Lee Malia, el bajista Matt Kean, el baterista Matt Nicholls y el tecladista Jordan Fish. Están firmados por RCA Records a nivel mundial y por Columbia Records para Estados Unidos exclusivamente. El estilo musical de sus inicios así como el de su álbum debut Count Your Blessings era el deathcore, pero en sus siguientes discos adoptaron un estilo más ecléctico del metalcore</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Billie eilish </h2>
+    <p>Billie Eilish Pirate Baird O'Connell (Los Ángeles, California; 18 de diciembre de 2001), conocida como Billie Eilish es una cantante y compositora estadounidense. Adquirió fama como artista cuando tenía 13 años, a raíz del sencillo «Ocean Eyes» que se publicó en 2015 en SoundCloud y que volvió a lanzarse con un vídeo musical en Youtube en 2016, cuando ella contaba con 14 años, y se convirtió en un fenómeno viral. En 2017, publicó su EP Don't smile at me, producido por su hermano Finneas O'Connell.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
